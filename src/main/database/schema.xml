@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dbSchema xmlns='https://github.com/genghis-juan/tetravex'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:schemaLocation='https://github.com/genghis-juan/tetravex dbschema.xsd'>
+    <database name="main">
+        <table name="TWO">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="TIME" jdbcDataType="VARCHAR" size="16" notNull="true"/>
+            <field name="SCORE_DATE" jdbcDataType="TIMESTAMP"/>
+        </table>
+        <table name="THREE">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="TIME" jdbcDataType="VARCHAR" size="16" notNull="true"/>
+            <field name="SCORE_DATE" jdbcDataType="TIMESTAMP"/>
+        </table>
+        <table name="FOUR">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="TIME" jdbcDataType="VARCHAR" size="16" notNull="true"/>
+            <field name="SCORE_DATE" jdbcDataType="TIMESTAMP"/>
+        </table>
+        <table name="FIVE">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="TIME" jdbcDataType="VARCHAR" size="16" notNull="true"/>
+            <field name="SCORE_DATE" jdbcDataType="TIMESTAMP"/>
+        </table>
+    </database>
+</dbSchema>

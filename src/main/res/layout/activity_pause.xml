@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2014 John Hunt <john.alma.hunt@gmail.com>
+
+This file is part of Tetravex Android.
+
+Tetravex Android is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tetravex Android is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_gradient_bg"
+    tools:context="com.github.tetravex_android.activity.DashboardActivity">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:keepScreenOn="true"
+        android:text="@string/paused"
+        android:textColor="@color/title_text"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/dashboard_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_gravity="center"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+        <Button
+            android:id="@+id/resume_game_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_resume_game"
+            android:drawablePadding="20dp"
+            android:onClick="resumeButtonClicked"
+            android:text="@string/resume_btn_text" />
+
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_new_game"
+            android:drawablePadding="20dp"
+            android:onClick="newGameButtonClicked"
+            android:text="@string/new_game_btn_text" />
+
+        <Button
+            android:id="@+id/quit_game_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_exit"
+            android:drawablePadding="20dp"
+            android:onClick="quitGameButtonClicked"
+            android:text="@string/quit_btn_text" />
+    </LinearLayout>
+
+</FrameLayout>

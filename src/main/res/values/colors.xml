@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2014 John Hunt <john.alma.hunt@gmail.com>
+
+This file is part of Tetravex Android.
+
+Tetravex Android is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tetravex Android is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <color name="original_bkgnd">#0099cc</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_background">#C8C8C8</color>
+    <color name="gray_gradient_start">#A8A8A8</color>
+    <color name="gray_gradient_end">#484848</color>
+    <color name="title_text">@color/gray_gradient_start</color>
+
+    <color name="victory_toast_background">#CC4D4D4D</color> <!-- #7777 -->
+
+    <!-- Tile background colors -->
+    <color name="tile_bkgnd_0">@color/black</color>
+    <color name="tile_bkgnd_1">#C17D11</color>
+    <color name="tile_bkgnd_2">#CC0000</color>
+    <color name="tile_bkgnd_3">#F57900</color>
+    <color name="tile_bkgnd_4">#EDD400</color>
+    <color name="tile_bkgnd_5">#73D216</color>
+    <color name="tile_bkgnd_6">#3465A4</color>
+    <color name="tile_bkgnd_7">#75507B</color>
+    <color name="tile_bkgnd_8">#BABDB6</color>
+    <color name="tile_bkgnd_9">@color/white</color>
+    <color name="tile_bkgnd_gray">@color/tile_bkgnd_8</color>
+
+</resources>

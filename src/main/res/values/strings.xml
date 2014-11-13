@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2014 John Hunt <john.alma.hunt@gmail.com>
+
+This file is part of Tetravex Android.
+
+Tetravex Android is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tetravex Android is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <string name="app_name">Tetravex Android</string>
+    <string name="version_number">1.0.0</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Tetravex</string>
+    <string name="new_game_btn_text">New puzzle</string>
+    <string name="scores_btn_text">Scores</string>
+    <string name="settings_btn_text">Settings</string>
+    <string name="howto_btn_text">How to play</string>
+
+    <!-- PauseActivity -->
+    <string name="paused">Paused</string>
+    <string name="resume_btn_text">Resume puzzle</string>
+    <string name="quit_btn_text">Discard puzzle</string>
+
+    <!-- Gameplay instructions-->
+    <string name="how_to_text_1">Match the edges of all numbered tiles on the board.</string>
+    <string name="how_to_text_2">Drag each tile to the target grid. The grid will highlight
+        spaces where the tile may be dropped.</string>
+    <string name="how_to_text_3">Solve the puzzle as quickly as you can.
+        The timer stops when all tiles are placed correctly on the board.</string>
+
+    <string name="title_activity_hi_score">Scores</string>
+    <string name="title_activity_how_to">How To Play</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_legal">Legal Information</string>
+
+    <!-- Settings overflow menu options-->
+    <string name="menu_text_reset_scores">Reset high scores</string>
+    <string name="menu_text_about">About</string>
+
+    <!-- Dialog prompts -->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_reset_scores_prompt">Reset high scores?</string>
+    <string name="dialog_quit_game_prompt">Quit current game?</string>
+    <string name="scores_deleted">Scores deleted</string>
+
+    <!-- Notification text -->
+    <string name="victory_notification_text">Puzzle completed!</string>
+    <string name="high_score_notification_text">New High Score</string>
+    <string name="looper_fail_text">Internal error - closing game</string>
+
+    <!-- Column headers for HiScoreActivity-->
+    <string name="col_header_time">Time</string>
+    <string name="col_header_date">Date</string>
+
+    <!-- About screen -->
+    <string name="version_label">Version</string>
+    <string name="legal_info_link"><u>Legal Information</u></string>
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_color_tiles">Colored tiles</string>
+    <string name="pref_description_color_tiles">Each tile number has its own color</string>
+    <string name="pref_title_size">Size</string>
+
+    <string name="two_x_two">2 x 2</string>
+    <string name="three_x_three">3 x 3</string>
+    <string name="four_x_four">4 x 4</string>
+    <string name="five_x_five">5 x 5</string>
+
+    <!-- Strings that do not require translation -->
+    <string name="pref_size_key">pref_size_list</string>
+    <string name="pref_color_key">pref_color_tiles</string>
+
+    <string-array name="pref_size_list_titles">
+        <item>@string/two_x_two</item>
+        <item>@string/three_x_three</item>
+        <item>@string/four_x_four</item>
+        <item>@string/five_x_five</item>
+    </string-array>
+    <string-array name="pref_size_list_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2014 John Hunt <john.alma.hunt@gmail.com>
+
+This file is part of Tetravex Android.
+
+Tetravex Android is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tetravex Android is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="40dp"
+    android:background="@color/gray_background">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_marginBottom="10sp"
+        android:text="Tetravex\nAndroid" />
+
+    <LinearLayout
+        android:id="@+id/version_group"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/version_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginRight="5dp"
+            android:text="@string/version_label" />
+
+        <TextView
+            android:id="@+id/version_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/version_number" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/legal_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/version_group"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="10sp"
+        android:text="@string/legal_info_link"
+        android:textColor="@color/tile_bkgnd_6" />
+</RelativeLayout>

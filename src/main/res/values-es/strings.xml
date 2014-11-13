@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2014 John Hunt <john.alma.hunt@gmail.com>
+
+This file is part of Tetravex Android.
+
+Tetravex Android is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tetravex Android is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <!-- Dashboard buttons -->
+    <string name="new_game_btn_text">Juego nuevo</string>
+    <string name="scores_btn_text">Puntuación</string>
+    <string name="settings_btn_text">Configuración</string>
+    <string name="howto_btn_text">Instrucciones</string>
+
+    <!-- PauseActivity -->
+    <string name="paused">Detenido</string>
+    <string name="resume_btn_text">Continuar juego</string>
+    <string name="quit_btn_text">Dejar juego</string>
+
+    <!-- Gameplay instructions-->
+    <string name="how_to_text_1">Empareje los bordes de todas las fichas numeradas.
+    </string>
+    <string name="how_to_text_2">Arrastre cada ficha a la rejilla de destino. La rejilla destacará
+        espacios donde la ficha se puede caer.</string>
+    <string name="how_to_text_3">Resuelva el rompecabezas lo más rápido que pueda. El temporizador
+        se detiene cuando todas las fichas se colocan correctamente en la rejilla.</string>
+
+    <string name="title_activity_hi_score">Puntuación</string>
+    <string name="title_activity_how_to">Instrucciones</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="title_activity_legal">Información Legal</string>
+
+    <!-- Settings overflow menu options-->
+    <string name="menu_text_reset_scores">Borrar las puntuaciónes</string>
+    <string name="menu_text_about">Acerca de</string>
+
+    <!-- Dialog prompts -->
+    <string name="dialog_reset_scores_prompt">¿Borrar las puntuaciónes?</string>
+    <string name="dialog_quit_game_prompt">¿Dejar juego?</string>
+    <string name="dialog_ok">Aceptar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="scores_deleted">Puntuaciónes borradas</string>
+
+    <string name="victory_notification_text">¡Rompecabezas resuelto!</string>
+    <string name="high_score_notification_text">Puntuación logrado</string>
+
+    <!-- Column headers for HiScoreActivity-->
+    <string name="col_header_time">Puntuación</string>
+    <string name="col_header_date">Fecha</string>
+
+    <!-- About screen -->
+    <string name="version_label">Versión</string>
+    <string name="legal_info_link"><u>Información Legal</u></string>
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_color_tiles">Fichas coloradas</string>
+    <string name="pref_description_color_tiles">Cada número tiene su propio color</string>
+    <string name="pref_title_size">Tamaño</string>
+
+</resources>
