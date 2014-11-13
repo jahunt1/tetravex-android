@@ -20,11 +20,11 @@ along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
 
 <resources>
 
-    <string name="app_name">Tetravex Android</string>
-    <string name="version_number">1.0.0</string>
+    <string name="app_name" translatable="false">Tetravex Android</string>
+    <string name="version_number" translatable="false">1.0.0</string>
 
     <!-- Dashboard -->
-    <string name="dashboard_title">Tetravex</string>
+    <string name="dashboard_title" translatable="false">Tetravex</string>
     <string name="new_game_btn_text">New puzzle</string>
     <string name="scores_btn_text">Scores</string>
     <string name="settings_btn_text">Settings</string>
@@ -61,7 +61,7 @@ along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Notification text -->
     <string name="victory_notification_text">Puzzle completed!</string>
     <string name="high_score_notification_text">New High Score</string>
-    <string name="looper_fail_text">Internal error - closing game</string>
+    <string name="looper_fail_text" translatable="false">Internal error - closing game</string>
 
     <!-- Column headers for HiScoreActivity-->
     <string name="col_header_time">Time</string>
@@ -77,22 +77,22 @@ along with Tetravex Android.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_description_color_tiles">Each tile number has its own color</string>
     <string name="pref_title_size">Size</string>
 
-    <string name="two_x_two">2 x 2</string>
-    <string name="three_x_three">3 x 3</string>
-    <string name="four_x_four">4 x 4</string>
-    <string name="five_x_five">5 x 5</string>
+    <string name="two_x_two" translatable="false">2 x 2</string>
+    <string name="three_x_three" translatable="false">3 x 3</string>
+    <string name="four_x_four" translatable="false">4 x 4</string>
+    <string name="five_x_five" translatable="false">5 x 5</string>
 
     <!-- Strings that do not require translation -->
-    <string name="pref_size_key">pref_size_list</string>
-    <string name="pref_color_key">pref_color_tiles</string>
+    <string name="pref_size_key" translatable="false">pref_size_list</string>
+    <string name="pref_color_key" translatable="false">pref_color_tiles</string>
 
-    <string-array name="pref_size_list_titles">
+    <string-array name="pref_size_list_titles" translatable="false">
         <item>@string/two_x_two</item>
         <item>@string/three_x_three</item>
         <item>@string/four_x_four</item>
         <item>@string/five_x_five</item>
     </string-array>
-    <string-array name="pref_size_list_values">
+    <string-array name="pref_size_list_values" translatable="false">
         <item>2</item>
         <item>3</item>
         <item>4</item>
